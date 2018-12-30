@@ -1,6 +1,6 @@
 {
 	"name": "supports-imgix",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "List of mime types that Imgix can process",
 	"license": "MIT",
 	"repository": "JonnyBurger/supports-imgix",
