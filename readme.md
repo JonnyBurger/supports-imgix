@@ -1,4 +1,4 @@
-# supports-imgix [![Build Status](https://travis-ci.com/JonnyBurger/supports-imgix.svg?branch=master)](https://travis-ci.com/JonnyBurger/supports-imgix?new)
+# supports-imgix [![Build Status](https://travis-ci.org/JonnyBurger/supports-imgix.svg?branch=master)](https://travis-ci.org/JonnyBurger/supports-imgix)
 
 > List of mime types that Imgix can process
 
