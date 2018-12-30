@@ -1,13 +1,13 @@
 {
-	"name": "supported-imgix-mime-types",
+	"name": "supports-imgix",
 	"version": "0.0.0",
 	"description": "List of mime types that Imgix can process",
 	"license": "MIT",
-	"repository": "JonnyBurger/supported-imgix-mime-types",
+	"repository": "JonnyBurger/supports-imgix",
 	"author": {
 		"name": "Jonny Burger",
 		"email": "jonathanburger11@gmail.com",
-		"url": "jonny.io"
+		"url": "https://jonny.io"
 	},
 	"engines": {
 		"node": ">=6"

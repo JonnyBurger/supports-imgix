@@ -1,11 +1,11 @@
 import test from 'ava';
-import supportedImgixMimeTypes from '.';
+import supportsImgix, {supportedTypes} from '.';
 
-test('title', t => {
-	const err = t.throws(() => {
-		supportedImgixMimeTypes(123);
-	}, TypeError);
-	t.is(err.message, 'Expected a string, got number');
+test('Should correctly determine if supports', t => {
+	t.true(supportsImgix('image/png'));
+	t.false(supportsImgix('image/webp'));
+});
 
-	t.is(supportedImgixMimeTypes('unicorns'), 'unicorns & rainbows');
+test('Should export list', t => {
+	t.true(supportedTypes.length > 10);
 });

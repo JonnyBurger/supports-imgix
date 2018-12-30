@@ -1,4 +1,4 @@
-# supported-imgix-mime-types [![Build Status](https://travis-ci.com/JonnyBurger/supported-imgix-mime-types.svg?branch=master)](https://travis-ci.com/JonnyBurger/supported-imgix-mime-types)
+# supports-imgix [![Build Status](https://travis-ci.com/JonnyBurger/supports-imgix.svg?branch=master)](https://travis-ci.com/JonnyBurger/supports-imgix)
 
 > List of mime types that Imgix can process
 
@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install supported-imgix-mime-types
+$ npm install supports-imgix
 ```
 
 
 ## Usage
 
 ```js
-const supportedImgixMimeTypes = require('supported-imgix-mime-types');
+const supportedImgixMimeTypes = require('supports-imgix');
 
 supportedImgixMimeTypes('unicorns');
 //=> 'unicorns & rainbows'
