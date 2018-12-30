@@ -19,7 +19,10 @@
 		"index.js"
 	],
 	"keywords": [
-		""
+		"imgix",
+		"mime-types",
+		"mime",
+		"image-processing"
 	],
 	"dependencies": {},
 	"devDependencies": {
